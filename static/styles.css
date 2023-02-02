@@ -1,0 +1,40 @@
+.table {
+    border-spacing: 0;
+    margin: 1rem;
+    background-color: #f5f5f5;
+}
+
+.table__row:nth-child(odd) {
+    background-color:darkgray;
+}
+
+.table__header {
+    text-align: left;
+    background-color: antiquewhite;
+}
+
+.table__cell {
+    padding: 8px;
+}
+
+.good-status {
+    color: green;
+}
+
+.bad-status {
+    color: red
+}
+
+.unknown-status {
+    color: rgb(197, 197, 0)
+}
+
+h1 {
+    position: relative;
+    left: 14px;
+}
+#filter {
+    border: 1px solid black;
+    position: relative;
+    left: 16px;
+}
