@@ -21,19 +21,28 @@
         <div class="row">
             <div class="col">
                 <h1>Boot Status</h1>
-                <input type="text" id="filter" placeholder="Search by Mac Address...">
-                <table id="Boot" class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">MAC Address</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Timestamp</th>
-                            <th scope="col">Message</th>
-                        </tr>
-                    </thead>
-                    <tbody id="body">
-                    </tbody>
-                </table>
+                <div class="above">
+                    <input type="text" id="filter" placeholder="Search by Mac Address...">
+                    <button type="button" id="clear" class="btn btn-primary">Clear</button>
+                </div>
+                <div class="below">
+                    <table id="Boot" class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">MAC Address</th>
+                                <th scope="col">Bootloader</th>
+                                <th scope="col">SD Format</th>
+                                <th scope="col">SD Population</th>
+                                <th scope="col">OS Load</th>
+                                <th scope="col">BIST</th>
+                                <th scope="col">Timestamp</th>
+                                <th scope="col">Message</th>
+                            </tr>
+                        </thead>
+                        <tbody id="body">
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -42,4 +51,5 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
